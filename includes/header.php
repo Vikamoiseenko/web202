@@ -16,10 +16,21 @@
 <!-- Begin Scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script src="js/jquery.flexslider.js"></script>
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/jquery.elevatezoom.js"></script>
+<script>
+$.noConflict();
+jQuery(document).ready(function ($) {
+$("#zoom_01").elevateZoom({gallery:'gal1', cursor: 'pointer', galleryActiveClass: 'active', imageCrossfade: true, loadingIcon: 'http://www.elevateweb.co.uk/spinner.gif'});
+});
+</script>
 <!-- End Scripts -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="accordion.js"></script>
 
 <!-- Begin Flex Slider -->
 <script type="text/javascript" charset="utf-8">
+$.noConflict();
   $(window).load(function() { // enable function upon window load
     $('.flexslider').flexslider(); // call flexslider function
   });
@@ -48,7 +59,7 @@
 </ul>
 </div>
 <div id="logo">
-<h1>Broadway NYC Fashion</h1>
+<h1><a href="index.php">Broadway NYC Fashion</a></h1>
 </div>
 </div>
 </div>
@@ -57,7 +68,7 @@
 <div id='cssmenu'>
 <ul>
    <li class='active'><a href='#'><span>About</span></a></li>
-   <li class='has-sub'><a href='#'><span>Clothes</span></a>
+   <li class='has-sub'><a href=''><span>Clothes</span></a>
       <ul>
          <li><a href='#'><span>Dresses</span></a></li>
          <li><a href='#'><span>Tops</span></a></li>
@@ -70,9 +81,9 @@
          <li class='last'><a href='#'><span>Shorts</span></a></li>
       </ul>
    </li>
-   <li class='has-sub'><a href='#'><span>Shoes</span></a>
+   <li class='has-sub'><a href='shoes.php'><span>Shoes</span></a>
       <ul>
-         <li><a href='#'><span>Boots</span></a></li>
+         <li><a href='boots.php'><span>Boots</span></a></li>
          <li><a href='#'><span>Sandals</span></a></li>
          <li><a href='#'><span>Platforms</span></a></li>
          <li><a href='#'><span>Flats</span></a></li>

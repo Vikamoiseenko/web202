@@ -86,7 +86,69 @@ height: auto;
 .flex-control-thumbs img:hover {opacity: 1;}
 .flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
 
+div.flexslider blockquote.home {
+    background-color: rgba(61, 61, 60, 0.5);
+    border-radius: 5px;
+    bottom: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Helvetica",sans-serif;
+    font-size: 1.338em;
+    height: 160px;
+    line-height: 1.5em;
+    padding: 10px;
+    position: absolute;
+    right: 20px;
+    text-align: left;
+    width: 404px;
+    z-index: 3;
+}
+	div.flexslider button.home {
+    background-color: #f8bc19;
+    border: 0 none;
+    border-radius: 7px;
+    bottom: 30px;
+    color: #3e3e3d;
+    font-family: "Helvetica",sans-serif;
+    font-size: 22px;
+    line-height: 1.5em;
+   /* padding: 4px 10px;*/
+    position: absolute;
+    right: 30px;
+    text-align: left;
+    z-index: 3;
+}
+html body div#middle div.flexslider ul.slides li blockquote.home p.more-text{
+	font-size:14pt;
+	}
+html body div#middle div.flexslider ul.slides li blockquote.home p.more{					
+	font-size:26pt;
+	}
+
+	div.flexslider a button  {
+		display: block;
+		color: #000;
+		cursor: pointer;
+	}
+			
+	div.flexslider a:hover button  {
+		color: #FFF;
+		text-shadow: 2px 2px #000;
+	}
 	
+#content div.flexslider ul { 
+	margin-bottom: 0; 
+	margin-left: 0; 
+	padding-left: 0;
+	padding-right: 0;
+	}
+#content div.flexslider p {
+	font-family: "Gotham Black", sans-serif;
+	font-size: 14px;
+	font-style: italic;	
+	padding-top: 8px;
+}
+/*	
 div.flexslider button.home {
 	position: absolute;
 	bottom: 20px;
@@ -121,7 +183,7 @@ div.flexslider button.home {
 	}
 	
 
-
+*/
 @media screen and (max-width: 860px) {
 .flex-direction-nav .flex-prev { opacity: 1; left: 10px;}
 .flex-direction-nav .flex-next { opacity: 1; right: 10px;}
